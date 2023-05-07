@@ -1,0 +1,6 @@
+Flask
+numpy
+Pillow
+scikit_learn
+tensorflow
+tqdm
