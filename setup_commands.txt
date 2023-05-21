@@ -2,7 +2,7 @@
 json-server --host 0.0.0.0 ./API/ifitimg.json          browser- http://192.168.0.104:3000/Products
 C:\Users\akash\React Projects\mygroceryapp
 npx react-native start
-C:\Users\akash\AppData\Local\Programs\Python\Python310\ifitapparels
+C:\Users\akash\AppData\Local\Programs\Python\Python310\ifitapparel
 python app.py             browser- http://192.168.0.104:5000/?in_img_path=10000.jpg&model_run=no
                                      http://192.168.43.233:5000/?in_img_path=10000.jpg&model_run=no
                                      http://127.0.0.1:5000/?in_img_path=10000.jpg&model_run=no

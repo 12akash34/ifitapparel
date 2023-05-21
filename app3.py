@@ -13,14 +13,14 @@
 #     return "Home"
 import firebase_admin
 from firebase_admin import credentials, storage, firestore
-cred = credentials.Certificate("mygroceryapp-80ee5-594f1736fbc0.json")
+cred = credentials.Certificate("mygroceryapp-80ee5-746d086273cc.json")
 firebase_admin.initialize_app(cred,{'storageBucket': 'mygroceryapp-80ee5.appspot.com'}) # connecting to firebase
 db = firestore.client()
 
 from google.cloud import storage
 from google.oauth2 import service_account
 
-credentials = service_account.Credentials.from_service_account_file("mygroceryapp-80ee5-594f1736fbc0.json")
+credentials = service_account.Credentials.from_service_account_file("mygroceryapp-80ee5-746d086273cc.json")
 
 
 from flask import Flask, request, jsonify
